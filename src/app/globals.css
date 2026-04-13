@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Sora:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #FAF8F5;
+  --section-card: #FFFFFF;
+  --accent: #B8860B;
+  --accent-primary: #C9A227;
+  --accent-secondary: #D4AF37;
+  --text-primary: #1A1612;
+  --text-muted: #5C564A;
+  --borders: #E8E0D4;
+}
+
+[data-theme="blue"] {
+  --accent: #A67C00;
+  --accent-primary: #C9A227;
+}
+
+/* Disable animations when motion is reduced */
+[data-motion="off"] * {
+  animation: none !important;
+  transition: none !important;
+}
+
+@theme inline {
+  /* Design system colors - use as bg-bg, text-primary, border-border, etc. */
+  --color-bg: #FAF8F5;
+  --color-card: #FFFFFF;
+  --color-primary: var(--accent);
+  --color-secondary: #C9A227;
+  --color-text: #1A1612;
+  --color-muted: #5C564A;
+  --color-border: #E8E0D4;
+  /* Legacy mappings */
+  --color-background: var(--color-bg);
+  --color-section-card: var(--color-card);
+  --color-accent-primary: var(--color-primary);
+  --color-accent-secondary: var(--color-secondary);
+  --color-text-primary: var(--color-text);
+  --color-text-muted: var(--color-muted);
+  --color-borders: var(--color-border);
+  --font-heading: 'Sora', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* WCAG AA keyboard focus - visible for keyboard, hidden for mouse */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+button:focus-visible,
+a:focus-visible {
+  box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.35);
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Chart touch support for mobile */
+canvas {
+  touch-action: pan-x pan-y;
+}
