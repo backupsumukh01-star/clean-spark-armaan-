@@ -1,8 +1,8 @@
-# Clan Spark
+# CleanSpark
 
 ## Overview
 
-Clan Spark is a Bitcoin mining company focused on efficient hashrate, disciplined energy use, and clear communication with the community.
+CleanSpark is a Bitcoin mining company focused on efficient hashrate, disciplined energy use, and clear communication with the community.
 
 ## Mission
 

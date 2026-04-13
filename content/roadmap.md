@@ -2,7 +2,7 @@
 
 ## A Long-Term Approach to Growth
 
-Clan Spark follows a measured roadmap for mining scale: stable power, fleet growth, and transparent reporting to the community.
+CleanSpark follows a measured roadmap for mining scale: stable power, fleet growth, and transparent reporting to the community.
 
 ## Phase 1 — Foundation
 

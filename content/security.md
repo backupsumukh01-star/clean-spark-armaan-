@@ -1,6 +1,6 @@
 # Security & Transparency
 
-Clan Spark applies rigorous operational security at mining sites and best-practice smart contract design for on-chain assets.
+CleanSpark applies rigorous operational security at mining sites and best-practice smart contract design for on-chain assets.
 
 ## Security Measures
 

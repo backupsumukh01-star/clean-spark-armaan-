@@ -1,10 +1,10 @@
 {
-  "name": "clan-spark-plus",
+  "name": "cleanspark-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build:pdfs": "node scripts/generate-clan-spark-pdfs.mjs",
+    "build:pdfs": "node scripts/generate-cleanspark-pdfs.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

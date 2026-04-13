@@ -1,12 +1,12 @@
-# Clan Spark Whitepaper
+# CleanSpark Whitepaper
 
 ## Mining & On-Chain Participation
 
-This document outlines Clan Spark’s Bitcoin mining strategy, risk factors, and how **CLSK** (CleanSpark Ltd) on BNB Smart Chain complements operational transparency.
+This document outlines CleanSpark’s Bitcoin mining strategy, risk factors, and how **CLSK** (CleanSpark Ltd) on BNB Smart Chain complements operational transparency.
 
 ## Overview
 
-Clan Spark is a Bitcoin mining operator focused on efficient hashrate, power discipline, and long-term BTC accumulation — with **CLSK** as the verified BEP-20 on BNB Smart Chain.
+CleanSpark is a Bitcoin mining operator focused on efficient hashrate, power discipline, and long-term BTC accumulation — with **CLSK** as the verified BEP-20 on BNB Smart Chain.
 
 ## Sections
 
