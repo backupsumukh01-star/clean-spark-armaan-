@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 
 export default function CountUp({
   value,
@@ -15,10 +16,16 @@ export default function CountUp({
   const intervalRef = useRef<ReturnType<typeof setInterval> | undefined>(
     undefined,
   );
+  const prefersReducedMotion = useReducedMotion();
 
   useEffect(() => {
     startedRef.current = false;
     setCount(0);
+
+    if (prefersReducedMotion || value <= 0) {
+      setCount(Math.max(0, value));
+      return;
+    }
 
     const el = ref.current;
     if (!el) return;
@@ -60,7 +67,7 @@ export default function CountUp({
         intervalRef.current = undefined;
       }
     };
-  }, [value]);
+  }, [value, prefersReducedMotion]);
 
   return (
     <span ref={ref}>
