@@ -14,7 +14,12 @@ const stats = [
   { label: "Primary asset", value: "Bitcoin (BTC)" },
   {
     label: "Token supply (verify on BscScan)",
-    value: <CountUp value={1000000000} suffix={` ${TOKEN_SYMBOL}`} />,
+    value: (
+      <span className="flex flex-col items-center gap-0.5">
+        <CountUp value={1000000000} />
+        <span className="text-lg font-semibold md:text-xl">{TOKEN_SYMBOL}</span>
+      </span>
+    ),
   },
   { label: "Network", value: "BNB Smart Chain" },
 ];
@@ -30,12 +35,14 @@ export default function Stats() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="rounded-xl border border-border bg-card p-6 text-center"
+            className="flex min-h-[8.5rem] min-w-0 flex-col justify-between gap-2 rounded-xl border border-border bg-card px-4 py-5 text-center sm:px-5 sm:py-6"
           >
-            <div className="font-heading text-2xl font-semibold text-text">
+            <div className="min-w-0 font-heading text-xl font-semibold leading-snug tracking-tight text-text tabular-nums sm:text-2xl">
               {s.value}
             </div>
-            <div className="mt-1 text-xs text-muted">{s.label}</div>
+            <div className="text-balance text-xs leading-relaxed text-muted">
+              {s.label}
+            </div>
           </motion.div>
         ))}
       </div>
