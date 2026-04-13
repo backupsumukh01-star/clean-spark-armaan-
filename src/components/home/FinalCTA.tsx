@@ -11,7 +11,7 @@ export default function FinalCTA() {
 
           <p className="mb-8 text-muted">
             Learn how we buy, host, and scale hashrate — and how CLSK fits into
-            the broader Clan Spark Bitcoin strategy.
+            the broader CleanSpark Bitcoin strategy.
           </p>
 
           <Link

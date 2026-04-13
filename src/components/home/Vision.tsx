@@ -16,7 +16,7 @@ export default function Vision() {
           Built for decades of blocks
         </h2>
         <p className="mt-6 text-muted">
-          Clan Spark exists to run durable Bitcoin mining: honest power deals,
+          CleanSpark exists to run durable Bitcoin mining: honest power deals,
           resilient sites, and reporting holders can reason about. The CLSK token
           is a companion to that mission — not a substitute for understanding
           mining risk, regulation, or BTC volatility.

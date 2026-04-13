@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="text-center md:text-left">
             <p className="font-heading text-lg font-semibold text-text">
-              Clan Spark © 2026
+              CleanSpark © 2026
             </p>
             <p className="mt-1 text-sm text-muted">
               Bitcoin mining & on-chain participation.

@@ -27,7 +27,7 @@ export default function Features() {
     <motion.section {...motionPresets.fadeUp} className="py-24">
       <div className="mx-auto max-w-6xl px-6">
         <h2 className="font-heading text-center text-3xl font-semibold text-text mb-12">
-          Why Clan Spark
+          Why CleanSpark
         </h2>
 
         <div className="grid gap-6 md:grid-cols-2">

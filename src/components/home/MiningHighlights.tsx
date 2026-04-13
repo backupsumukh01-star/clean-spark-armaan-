@@ -29,7 +29,7 @@ export default function MiningHighlights() {
           How we mine
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-muted">
-          Clan Spark is structured as a Bitcoin mining company: hardware, power,
+          CleanSpark is structured as a Bitcoin mining company: hardware, power,
           and people working together toward dependable hashrate and honest
           communication with holders.
         </p>

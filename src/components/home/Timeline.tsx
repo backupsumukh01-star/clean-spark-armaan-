@@ -24,7 +24,7 @@ export default function Timeline() {
     <section className="py-28">
       <div className="mx-auto max-w-4xl px-6">
         <h2 className="font-heading text-center text-3xl font-semibold text-text mb-12">
-          Clan Spark mining roadmap
+          CleanSpark mining roadmap
         </h2>
 
         <div className="space-y-8">

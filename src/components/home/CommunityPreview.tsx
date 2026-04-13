@@ -8,7 +8,7 @@ export default function CommunityPreview() {
           A Global Community Asset
         </h2>
         <p className="mx-auto mt-6 max-w-2xl text-muted">
-          Clan Spark is open to participants worldwide. Community growth,
+          CleanSpark is open to participants worldwide. Community growth,
           transparency, and long-term alignment are central to the project.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">

@@ -11,11 +11,11 @@ export default function GovernancePage() {
           animate={{ opacity: 1, y: 0 }}
           className="font-heading text-4xl font-semibold text-text mb-8"
         >
-          Clan Spark Governance
+          CleanSpark Governance
         </motion.h1>
 
         <p className="mb-12 max-w-3xl text-muted">
-          As a Bitcoin mining operator, Clan Spark pairs on-chain CLSK governance
+          As a Bitcoin mining operator, CleanSpark pairs on-chain CLSK governance
           with real-world operations: holders can weigh in on disclosed treasury
           uses, community initiatives, and long-term alignment with mining
           expansion — always subject to law, custody policy, and board-level

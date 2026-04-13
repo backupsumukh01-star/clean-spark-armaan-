@@ -15,6 +15,6 @@ export const LP_LOCK_ADDRESS =
 
 /** Public paths — run `npm run build:pdfs` to generate files under `public/` */
 export const AUDIT_PDF_PATH =
-  "/audit/Clan_Spark_Security_Audit_Summary.pdf";
+  "/audit/CleanSpark_Security_Audit_Summary.pdf";
 export const WHITEPAPER_PDF_PATH =
-  "/whitepaper/Clan_Spark_Whitepaper.pdf";
+  "/whitepaper/CleanSpark_Whitepaper.pdf";

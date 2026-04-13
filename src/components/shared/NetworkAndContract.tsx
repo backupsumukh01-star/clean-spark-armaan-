@@ -62,7 +62,7 @@ export default function NetworkAndContract() {
           </h3>
           <p className="text-sm text-muted">
             Ensure you are connected to the correct network before interacting
-            with Clan Spark.
+            with CleanSpark.
           </p>
         </div>
 

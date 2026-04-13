@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Exchange & Listing Compliance | Clan Spark",
+  title: "Exchange & Listing Compliance | CleanSpark",
   description:
-    "Clan Spark compliance with CoinMarketCap and CoinGecko listing requirements.",
+    "CleanSpark compliance with CoinMarketCap and CoinGecko listing requirements.",
 };
 
 const checklist = [
-  ["Official Website", "clansparkmining.com"],
+  ["Official Website", "cleansparkcoin.com"],
   ["Public Contract Address", "Visible on site"],
   ["Blockchain Explorer", "BscScan"],
   ["Tokenomics Page", "Available"],
@@ -30,7 +30,7 @@ export default function ListingChecklistPage() {
         </h1>
 
         <p className="mb-10 max-w-3xl text-muted">
-          This page outlines Clan Spark's compliance with CoinMarketCap and
+          This page outlines CleanSpark's compliance with CoinMarketCap and
           CoinGecko listing requirements. All information is publicly verifiable
           and maintained transparently.
         </p>

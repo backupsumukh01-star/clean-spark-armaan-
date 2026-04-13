@@ -24,7 +24,7 @@ function HeroContent() {
             Bitcoin mining operations
           </p>
           <h1 className="font-heading text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-[#6B5A1E] via-[#C9A227] to-[#8B6914] md:text-7xl">
-            CLAN SPARK
+            CLEANSPARK
           </h1>
         </ParallaxContainer>
 

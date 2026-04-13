@@ -235,7 +235,7 @@ export default function HowToBuyGuide() {
         </div>
 
         <p className="mt-12 text-xs text-muted">
-          Clan Spark does not provide financial advice. Always verify contract
+          CleanSpark does not provide financial advice. Always verify contract
           details before interacting and double-check you are using the correct
           contract address.
         </p>

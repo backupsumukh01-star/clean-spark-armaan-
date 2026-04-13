@@ -12,10 +12,10 @@ export const config = createConfig({
     walletConnect({
       projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "YOUR_WALLETCONNECT_PROJECT_ID",
       metadata: {
-        name: "Clan Spark",
+        name: "CleanSpark",
         description:
           "Bitcoin mining company — wallet connection for CLSK and on-chain tools.",
-        url: "https://clansparkmining.com",
+        url: "https://cleansparkcoin.com",
         icons: ["/logo.svg"],
       },
     }),

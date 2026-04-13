@@ -11,13 +11,13 @@ export default function BuyVerifySection() {
     <section className="py-28">
       <div className="mx-auto max-w-5xl px-6">
         <h2 className="font-heading text-3xl font-semibold text-text mb-8 text-center">
-          Buy & Verify Clan Spark
+          Buy & Verify CleanSpark
         </h2>
 
         {status !== "connected" ? (
           <div className="flex flex-col items-center gap-4 text-center">
             <p className="text-muted">
-              Connect your wallet to buy and manage Clan Spark.
+              Connect your wallet to buy and manage CleanSpark.
             </p>
             <ConnectWallet />
           </div>

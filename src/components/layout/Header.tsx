@@ -20,13 +20,13 @@ export default function Header() {
           >
             <Image
               src="/logo.svg"
-              alt="Clan Spark"
+              alt="CleanSpark"
               width={28}
               height={28}
               priority
               className="h-7 w-7"
             />
-            Clan Spark
+            CleanSpark
           </Link>
 
           {/* Right actions */}

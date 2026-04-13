@@ -35,10 +35,10 @@ export default function CommunityPage() {
       <section className="border-b border-border px-6 py-20 md:py-28">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="font-heading text-4xl font-semibold text-text md:text-5xl">
-            Join the Clan Spark Community
+            Join the CleanSpark Community
           </h1>
           <p className="mt-6 text-lg text-muted">
-            Clan Spark is driven by a global community committed to transparency,
+            CleanSpark is driven by a global community committed to transparency,
             discussion, and long-term growth.
           </p>
         </div>

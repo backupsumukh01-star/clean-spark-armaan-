@@ -19,7 +19,7 @@ export default function SecurityPage() {
             Security & Transparency
           </h1>
           <p className="mb-8 text-muted">
-            Clan Spark applies strong security practices to Bitcoin mining sites,
+            CleanSpark applies strong security practices to Bitcoin mining sites,
             custody workflows, and the public CLSK token contract.
           </p>
           <ul className="space-y-3 text-muted">

@@ -16,7 +16,7 @@ export default function LegalPage() {
           </h1>
           <div className="mt-8 space-y-6 text-muted">
             <p className="leading-relaxed">
-              Clan Spark is a Bitcoin mining and digital asset information project.
+              CleanSpark is a Bitcoin mining and digital asset information project.
               Nothing on this website constitutes
               financial advice, investment advice, or a solicitation to invest.
               Participation in blockchain-based assets involves risk.

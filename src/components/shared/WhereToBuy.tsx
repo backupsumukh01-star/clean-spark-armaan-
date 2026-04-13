@@ -55,7 +55,7 @@ export default function WhereToBuy() {
         </div>
 
         <p className="mt-8 text-xs text-muted">
-          Clan Spark does not endorse third-party platforms. Users are responsible
+          CleanSpark does not endorse third-party platforms. Users are responsible
           for verifying authenticity and contract details.
         </p>
       </div>
